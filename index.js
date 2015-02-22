@@ -222,6 +222,9 @@ function KdTree(points, metric, dimensions) {
     );
 
     function nearestSearch(node) {
+      if(!self.root){
+        return [];
+      }
       var bestChild,
         dimension = dimensions[node.dimension],
         ownDistance = metric(point, node.obj),
