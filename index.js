@@ -294,7 +294,7 @@ function KdTree(points, metric, dimensions) {
 
     result = [];
 
-    for (i = 0; i < maxNodes && i < bestNodes.length; i += 1) {
+    for (i = 0; i < maxNodes && i < bestNodes.content.length; i += 1) {
       if (bestNodes.content[i][0]) {
         result.push([bestNodes.content[i][0].obj, bestNodes.content[i][1]]);
       }

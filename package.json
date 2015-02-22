@@ -1,5 +1,5 @@
 {
-  "name": "kdt",
+  "name": "kd.tree",
   "version": "0.1.1",
   "description": "100% JS k-d tree. Port of kd-tree-javascript.",
   "main": "index.js",
