@@ -1,11 +1,11 @@
 {
   "name": "kdt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "100% JS k-d tree. Port of kd-tree-javascript.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/st-luke/node-kdt"
+    "url": "git://github.com/akshaylive/node-kdt"
   },
   "keywords": [
     "kd-tree",
@@ -17,9 +17,10 @@
   ],
   "author": "Ubilabs",
   "contributors": [
-    "Mircea Pricop (https://github.com/mirceapricop)",
-    "Martin Kleppe (https://github.com/aemkei)",
-    "Luke Arduini  (http://github.com/st-luke)"
+    "Mircea Pricop      (https://github.com/mirceapricop)",
+    "Martin Kleppe      (https://github.com/aemkei)",
+    "Luke Arduini       (http://github.com/st-luke)",
+    "Akshaya Shanbhogue (http://github.com/akshaylive)"
   ],
   "license": "MIT",
   "readmeFilename": "README.md"
